@@ -1,0 +1,121 @@
+body {
+    background-image:  linear-gradient(#3a1b30b2, #3a1b30b2), url(fon.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+
+th,
+td,
+p {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    line-height: 18px;
+}
+
+h3,
+h4,
+h5,
+p,
+ul,
+ol,
+dl,
+pre,
+blockquote {
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+small {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 9px;
+    line-height: 12px;
+}
+
+a:link,
+a:active {
+    text-decoration: none;
+    color: #006699;
+}
+
+a:visited {
+    text-decoration: none;
+    color: #003399;
+}
+
+a:hover {
+    text-decoration: underline;
+    color: #DD6900;
+}
+
+a[target="_blank"] {
+    background-color: #FFFF99;
+}
+
+pre {
+    font-family: "Courier New", sans-serif;
+    font-size: 11px;
+    color: #006600;
+    background-color: #FAFAFA;
+    border: #D1D7DC;
+    border-style: solid;
+    border-width: 1px;
+}
+
+blockquote {
+    font-family: Verdana, Arial, Helvetica, sans-serif;
+    font-size: 11px;
+    color: #444444;
+    line-height: 125%;
+    background-color: #FAFAFA;
+    border: #D1D7DC;
+    border-style: solid;
+    border-width: 1px;
+}
+
+h1{
+    text-align: center;
+    color: #4c9af3;
+}
+
+form {
+    margin: 3px 2px 3px 3px;
+}
+
+input,
+textarea,
+select {
+    color: #000000;
+    background-color: #FFFFFF;
+    font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+    border-color: #000000;
+    border-width: 1px;
+}
+
+input {
+    text-indent: 2px;
+}
+
+
+span img{
+    width: 75px;
+}
+
+@media (max-width: 650px) {
+    span img{
+        width: 60px;
+    }
+}
+
+@media (max-width: 480px) {
+    span img{
+        width: 50px;
+    }
+}
+
+@media (max-width: 410px) {
+    span img{
+        width: 40px;
+    }
+}
